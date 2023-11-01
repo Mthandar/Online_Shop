@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+.tld {
+    padding: 4px;
+    border-radius: 5px;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #567ca1;
+    padding: 1px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+
+.btn-secondary {
+    color: #52d67c;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    color: rgb(17, 209, 27);
+}
+
+.btn-info {
+    background-color: #526cfd;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 7px;
+    border-color: #526cfd;
+}
+
+.btn-info:hover {
+    color: rgb(3, 29, 175);
+}
+
+.btn-danger {
+    color: #ff6b81;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    color: #ff4757;
+}
+
+.success {
+    color: #2ed573;
+}
+
+.error {
+    color: #ff4757;
+}
+
+
+/*for Menu */
+.menu {
+    border-bottom: 2px dotted rgb(138, 137, 137);
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3996ec;
+}
+
+.menu ul li a:hover {
+    color: #6459f8;
+}
+
+/*main-content */
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*for Footer */
+.footer {
+    background-color: #3996ec;
+    color: white;
+}
+
+/* CSS for Login */
+.login {
+    border: 1px solid rgb(243, 228, 95);
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}

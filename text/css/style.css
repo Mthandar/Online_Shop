@@ -1,0 +1,513 @@
+/* CSS for All */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 98%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.container-fluid li {
+    float: left;
+}
+
+.image {
+    width: 160px;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+.float-container {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+}
+
+.error {
+    padding: 2%;
+    color: red;
+}
+
+.success {
+    padding: 2%;
+    color: green;
+}
+
+/* CSS for Categories */
+.categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    width: 20%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* Menu */
+.menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.menu-img {
+    width: 20%;
+    float: left;
+}
+
+.menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.detail {
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* Scubscribe */
+.subscribe {
+    margin-top: 90px;
+}
+
+.subscribe .section-heading {
+    margin-bottom: 30px;
+}
+
+.subscribe .section-heading h2 {
+    line-height: 55px;
+}
+
+.subscribe form input {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+}
+
+.subscribe form input::focus {
+    border-color: #2a2a2a;
+    border-radius: 0px;
+}
+
+.subscribe form button {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background-color: #2a2a2a;
+    box-shadow: none;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.subscribe form button:hover {
+    background-color: #fff;
+    border: 1px solid #2a2a2a;
+    color: #2a2a2a;
+}
+
+.subscribe ul li {
+    margin-bottom: 30px;
+    display: block;
+}
+
+.subscribe ul li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.subscribe ul li span,
+.subscribe ul li span a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.subscribe ul li span a:hover {
+    color: #2a2a2a;
+}
+
+/* footer */
+.footer ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 1%;
+}
+
+/* About */
+.aimg {
+    width: 100%;
+}
+
+.container .inner-content {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    width: 90%;
+    transform: translateY(-22px);
+}
+
+.about-us {
+    margin-top: 80px;
+}
+
+.about-us .left-container img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.about-us .right-container {
+    margin-left: 30px;
+}
+
+.about-us .right-container h4 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+
+.about-us .right-container span {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 500;
+    display: block;
+    margin-top: 25px;
+}
+
+.about-us .right-container .quote {
+    margin-top: 25px;
+}
+
+.about-us .right-container .quote i {
+    float: left;
+    font-size: 32px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.about-us .right-container .quote p {
+    font-style: italic;
+    color: #2a2a2a;
+    font-weight: 500;
+}
+
+.about-us .right-container p {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 500;
+    display: block;
+    margin-top: 25px;
+}
+
+.about-us .right-container ul {
+    border-top: 3px dotted #eee;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.about-us .right-container ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.about-us .right-container ul li a {
+    width: 44px;
+    height: 44px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+.about-us .right-container ul li a:hover {
+    background-color: #a8d3f0;
+    color: #2a2a2a;
+}
+
+/* Contact */
+.contact-us {
+    margin-top: 90px;
+    border-bottom: 3px dotted #eee;
+    padding-bottom: 90px;
+}
+
+.contact-us .section-heading {
+    margin-bottom: 40px;
+}
+
+.contact-us #map {
+    margin-right: 30px;
+}
+
+.contact-us form input {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+}
+
+.contact-us form input::focus {
+    border-color: #2a2a2a;
+    border-radius: 0px;
+}
+
+.contact-us form textarea {
+    width: 100%;
+    height: 140px;
+    min-height: 120px;
+    max-height: 200px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+}
+
+.contact-us form textarea::focus {
+    border-color: #2a2a2a;
+    border-radius: 0px;
+}
+
+.contact-us form button {
+    width: 60px;
+    height: 44px;
+    display: inline-block;
+    box-shadow: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+/* product */
+#men {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+#men .item .down-content {
+    padding-top: 30px;
+    position: relative;
+    z-index: 3;
+    background-color: #fff;
+}
+
+#men .item .down-content h4 {
+    font-size: 22px;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#men .item .down-content span {
+    font-size: 18px;
+    color: #a1a1a1;
+    font-weight: 500;
+    display: block;
+}
+
+#men .item .thumb {
+    position: relative;
+}
+
+/* Order */
+.search {
+    background-image: url(../images/e1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.input-responsive {
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.order-label {
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+.container .form {
+    color: black;
+}
+
+.search .form .text-white {
+    color: black;
+}
+
+.container .form fieldset {
+    border: 1px solid black;
+    background-color: #f3f0c4;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:768px) {
+    .logo {
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul {
+        text-align: center;
+    }
+
+    .btn {
+        width: 91%;
+        padding: 2%;
+    }
+
+    .categories {
+        padding: 20% 0;
+    }
+
+    h2 {
+        margin-bottom: 10%;
+    }
+
+    .box-3 {
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .menu {
+        padding: 20% 0;
+    }
+
+    .menu-box {
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .subscribe input {
+        margin-bottom: 15px;
+    }
+
+    .subscribe form {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about-us .right-content {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .contact-us #map {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .order {
+        width: 100%;
+    }
+
+    .search input[type="search"] {
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .search {
+        padding: 10% 0;
+    }
+}
